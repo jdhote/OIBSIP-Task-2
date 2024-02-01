@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+   
+    /* background-color: #f2f2f2; */
+    
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: baseline;
+    /* position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; */
+}
+
+.name{
+    margin-left: 210px;
+}
+
+.navigate
+{
+    margin-right: 20px;
+}
+
+.navigation
+{
+    margin-left: 35px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    margin-top: 25px;
+}
+.about-content {
+     max-width: 750px;
+    margin: 20px auto;
+    padding: 0;
+    background-color: white;
+    display: flex;
+
+    /* flex-wrap: wrap; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+} 
+.about-content-text
+{
+    margin-right: 60px;
+}
+
+.about-content-img
+{
+    margin-top: 50px;
+}
+
+
+img {
+    /* max-width: 100%; */
+    /* height: auto; */
+    /* border-radius: 8px; */
+    height: 340px;
+    width: 300px;
+    /* margin-bottom: 20px; */
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    /* color: #555; */
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+
+.buttons
+{
+    margin-top: 40px;
+    margin-bottom: 65px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons .books{
+    background-color: #FF9900;
+    margin-left: 25px;
+}
+.buttons .videos
+{
+    background-color: #FF0000;
+    margin-left: 25px;
+
+}
+
+.buttons .learn-more
+{
+    background-color: #a99d9d;
+    margin-left: 25px;
+
+}
+
+.btn{ 
+    
+   width: 13%;
+   border: none;
+
+}
+
+.quote
+{
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding-top: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.awards{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.award-cards
+{  margin-top: 16px;
+    padding: 30px;
+}
+
+.award-heading
+{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.fa-star{
+    font-size: 1.75rem;
+    margin-right: 10px;
+}
+
+
+footer {
+    background-color:#333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 13px;
+}
